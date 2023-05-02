@@ -9,7 +9,6 @@
     "aws-sdk": "^2.1048.0",
     "axios": "^0.24.0",
     "lodash": "^4.17.21",
-    "luxon": "^2.2.0",
     "prettier-plugin-sort-imports": "^1.6.0"
   },
   "devDependencies": {
