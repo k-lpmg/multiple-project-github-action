@@ -6,6 +6,10 @@ on:
     branches:
       - main
 
+defaults:
+  run:
+    working-directory: ./project-a
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -22,4 +26,4 @@ jobs:
 
       - name: format
         run: |
-          npm run format ./project-a/
+          npm run format ./
