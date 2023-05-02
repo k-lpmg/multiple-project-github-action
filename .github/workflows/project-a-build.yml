@@ -3,10 +3,9 @@ name: project-a-build
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "project-a/**"
-    branches:
-      - main
 
 defaults:
   run:
