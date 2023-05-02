@@ -22,4 +22,4 @@ jobs:
 
       - name: format
         run: |
-          npm run format
+          npm run format ./project-a/
