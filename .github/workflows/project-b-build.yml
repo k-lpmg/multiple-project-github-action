@@ -3,6 +3,8 @@ name: project-b-build
 on:
   workflow_dispatch:
   push:
+    paths:
+      - "./project-b"
     branches:
       - main
 
