@@ -2,10 +2,7 @@
   "name": "project-a",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack-cli",
-    "watch": "webpack-cli -w",
-    "local": "webpack-cli && sam local start-api",
-    "format": "prettier --write ./src"
+    "format": "prettier --write ./"
   },
   "author": "k-lpmg",
   "dependencies": {
